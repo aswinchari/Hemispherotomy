@@ -20,11 +20,11 @@ This was done by combining the parcellation scheme with the preprocessed diffusi
 
 ## Simulating the Hemispherotomy
 
-The simulated PIH steps were performed on an adolescent atlas brain, available through the [Open Science Framework page for this project](https://osf.io/68tmn/?view_only=f297d42574c24a4aaa16b5aa2d8b5187). These were registered onto the individual subject brains and the diffusion was re-run exclusing the regions of interest for each cut from the streamlines, as per the script **hemispherotomy.sh**. The output connectomes are available either as csv files or imported into a matlab structure at the [Open Science Framework page for this project](https://osf.io/68tmn/?view_only=f297d42574c24a4aaa16b5aa2d8b5187)
+The simulated PIH steps were performed on an adolescent atlas brain, available through the [Open Science Framework page for this project](https://osf.io/68tmn/?view_only=f297d42574c24a4aaa16b5aa2d8b5187) under **SimulatedCuts.zip**. These were registered onto the individual subject brains and the diffusion was re-run exclusing the regions of interest for each cut from the streamlines, as per the script **hemispherotomy.sh**. The output connectomes are available either as csv files (**Output.zip**) or imported into a matlab structure (**hemispherotomy.mat**) at the [Open Science Framework page for this project](https://osf.io/68tmn/?view_only=f297d42574c24a4aaa16b5aa2d8b5187)
 
 # Analysis
 
-The extracted connectomes were assembled as structures and analysed in Matlab v2020b using the scripts provided. The Matlab scripts are ordered and the intermediate output files are also provided. Figures were generated in Matlab. 
+The extracted connectomes were assembled as structures and analysed in Matlab v2020b using the scripts provided. The Matlab scripts are ordered and the intermediate output files are also provided. Graphical figures were generated in Matlab. 
 
 # Visualisation
 
